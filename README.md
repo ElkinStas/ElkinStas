@@ -83,11 +83,11 @@ What makes the task interesting is that there is no simple one-shot solution: th
 
 ### [CTF_Assistant](https://github.com/ElkinStas/CTF_Assistant)
 
-RAG and tool-using assistant prototype for cybersecurity CTF-style tasks. The system combines an open-source LLM reasoning core with graph-based memory, retrieval over task-relevant data, and a tool router for common offensive-security workflows.
+Research codebase behind an IEEE FLLM 2025 paper on retrieval-augmented reasoning for offensive-security and CTF-style tasks. The project explores how an LLM agent can combine retrieval, graph-based memory, controlled tool routing, and step-by-step reasoning to solve multi-stage cybersecurity challenges more reliably than a raw LLM baseline.
 
-The architecture includes retrieval-augmented reasoning, NetworkX-based contextual memory, and integrations with tools such as DirSearch, Nmap, SQLmap, Hashcat, CyberChef, and an internal RAG tool. The agent follows a step-by-step reasoning loop that logs intermediate thoughts, tool actions, observations, and final answers. The dataset covers reconnaissance, forensics, cryptography, low-level exploitation, binary analysis, and reverse engineering tasks.
+The system uses an open-source LLM reasoning core, RAG over task-relevant data, NetworkX-based graph memory, and integrations with tools such as DirSearch, Nmap, SQLmap, Hashcat, and CyberChef. The dataset covers reconnaissance, forensics, cryptography, low-level exploitation, binary analysis, and reverse engineering tasks.
 
-**Focus:** Python, RAG, CTF automation, graph-based memory, tool routing, cybersecurity task solving, reasoning traces.
+**Focus:** LLM agents, RAG, AI security, CTF automation, graph-based memory, tool routing, cybersecurity reasoning, IEEE FLLM 2025.
 
 ---
 
