@@ -105,10 +105,3 @@ I’m based in Brazil and work well in remote, async, cross-functional environme
 I’m especially interested in applied AI products, AI security, retrieval systems, developer tools, document intelligence, knowledge systems, and agentic workflows.
 
 ---
-
-## Links
-
-* [LinkedIn](https://www.linkedin.com/in/stanislav-elkin)
-* [GitHub](https://github.com/ElkinStas)
-* [Google Scholar](https://scholar.google.com/citations?user=no8waPIAAAAJ&hl=en)
-* [ORCID](https://orcid.org/0009-0001-2989-9262)
