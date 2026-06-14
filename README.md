@@ -10,6 +10,9 @@ My strongest areas are applied AI engineering, production NLP, retrieval-augment
   <a href="https://www.linkedin.com/in/stanislav-elkin">
     <img src="https://img.shields.io/badge/LinkedIn-Stanislav%20Elkin-blue?style=flat-square&logo=linkedin" />
   </a>
+  <a href="https://calendly.com/stanislavelkin-br/ai-ml-intro-call">
+    <img src="https://img.shields.io/badge/Book%20a%20Call-AI%2FML%20Intro-006BFF?style=flat-square" />
+  </a>
   <a href="https://scholar.google.com/citations?user=no8waPIAAAAJ&hl=en">
     <img src="https://img.shields.io/badge/Google%20Scholar-Publications-grey?style=flat-square&logo=googlescholar" />
   </a>
