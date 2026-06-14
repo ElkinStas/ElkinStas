@@ -13,6 +13,9 @@ My strongest areas are applied AI engineering, production NLP, retrieval-augment
   <a href="https://scholar.google.com/citations?user=no8waPIAAAAJ&hl=en">
     <img src="https://img.shields.io/badge/Google%20Scholar-Publications-grey?style=flat-square&logo=googlescholar" />
   </a>
+  <a href="https://orcid.org/0009-0001-2989-9262">
+    <img src="https://img.shields.io/badge/ORCID-0009--0001--2989--9262-green?style=flat-square&logo=orcid" />
+  </a>
   <a href="mailto:stanislavelkin.br@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail" />
   </a>
@@ -82,8 +85,8 @@ Designed a domain ontology and knowledge graph with **5,400+ entities** using RD
 
 ## Publications
 
-* **Retrieval-Augmented Reasoning for Offensive Security: A Multi-Agent LLM Framework for CTF Challenge Solving** — IEEE FLLM 2025
-* **Graphical Abbreviation Disclosure in Russian Language** — Springer AIST 2024
+* [**Retrieval-Augmented Reasoning for Offensive Security: A Multi-Agent LLM Framework for CTF Challenge Solving**](https://ieeexplore.ieee.org/document/11391064) — IEEE FLLM 2025
+* [**Graphical Abbreviation Disclosure in Russian Language**](https://link.springer.com/chapter/10.1007/978-3-031-88036-0_3) — Springer AIST 2024
 
 ---
 
@@ -97,6 +100,7 @@ I’m especially interested in applied AI products, AI security, retrieval syste
 
 ## Links
 
-* LinkedIn: https://www.linkedin.com/in/stanislav-elkin
-* GitHub: https://github.com/ElkinStas
-* Google Scholar: https://scholar.google.com/citations?user=no8waPIAAAAJ&hl=en
+* [LinkedIn](https://www.linkedin.com/in/stanislav-elkin)
+* [GitHub](https://github.com/ElkinStas)
+* [Google Scholar](https://scholar.google.com/citations?user=no8waPIAAAAJ&hl=en)
+* [ORCID](https://orcid.org/0009-0001-2989-9262)
