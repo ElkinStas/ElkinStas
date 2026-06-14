@@ -61,25 +61,33 @@ My strongest areas are applied AI engineering, production NLP, retrieval-augment
 
 ## Featured Projects
 
-### Multi-Agent Cyber Threat Intelligence System
+### [cti-multi-agent](https://github.com/ElkinStas/cti-multi-agent)
 
-Open-source LangGraph/FastAPI system that discovers cybersecurity incidents from open sources, extracts structured intelligence with Claude, enriches CVEs through the NVD API, and serves consolidated JSON/Markdown reports.
+Multi-agent cyber threat intelligence system that discovers cybersecurity incidents from the open web, extracts structured intelligence, enriches referenced CVEs through the NVD API, and serves consolidated JSON/Markdown reports via an async FastAPI service.
 
-**Focus:** LangGraph, FastAPI, multi-agent workflows, structured outputs, CVE enrichment, telemetry, caching, Docker, Streamlit, pytest.
+The pipeline is built as a LangGraph StateGraph with explicit agent-to-agent state transitions: search, extraction, post-processing, CVE enrichment, and report synthesis. The system includes Claude-based structured extraction, heuristic fallbacks, retry/backoff logic, per-node telemetry, caching, incident-to-CVE linkage, Docker setup, Streamlit UI, and a test suite that runs without network access or API keys.
 
----
-
-### Retrieval-Augmented CTF Reasoning Agent
-
-Research project focused on retrieval-augmented LLM reasoning for offensive-security tasks. The system combined FAISS-based RAG, graph memory, controlled tool invocation, scenario isolation, reasoning traces, and evaluation logic.
-
-**Outcome:** +57.1% task-completion improvement over a GPT-4o baseline on the NYU CTF benchmark; published at IEEE FLLM 2025.
+**Focus:** LangGraph, FastAPI, Anthropic Claude, multi-agent workflows, structured outputs, CVE enrichment, telemetry, caching, Docker, Streamlit, pytest.
 
 ---
 
-### Knowledge Graph / Semantic Ontology Project
+### [graph-generation-rl-task](https://github.com/ElkinStas/graph-generation-rl-task)
 
-Designed a domain ontology and knowledge graph with **5,400+ entities** using RDF/OWL, SPARQL, embeddings, entity extraction, classification logic, and relationship prediction.
+RL training task for teaching LLM agents to generate graphs that satisfy precise network topology constraints. The model must produce a connected 400-node graph matching target clustering coefficient, average path length, and connected-component constraints under limited tool-use and metric-call budgets.
+
+What makes the task interesting is that there is no simple one-shot solution: the agent has to choose between graph generation strategies such as Erdős-Rényi, Barabási-Albert, and Holme-Kim triadic closure, then iteratively refine the graph through rewiring, triangle-boosting, and edge pruning. The benchmark is intentionally difficult because clustering and path length often trade off against each other, forcing the model to reason under constraints rather than simply generate code.
+
+**Focus:** Python, NetworkX, reinforcement learning tasks, graph generation, constrained optimization, network metrics, tool-use budgets, LLM training evaluation.
+
+---
+
+### [CTF_Assistant](https://github.com/ElkinStas/CTF_Assistant)
+
+RAG and tool-using assistant prototype for cybersecurity CTF-style tasks. The system combines an open-source LLM reasoning core with graph-based memory, retrieval over task-relevant data, and a tool router for common offensive-security workflows.
+
+The architecture includes retrieval-augmented reasoning, NetworkX-based contextual memory, and integrations with tools such as DirSearch, Nmap, SQLmap, Hashcat, CyberChef, and an internal RAG tool. The agent follows a step-by-step reasoning loop that logs intermediate thoughts, tool actions, observations, and final answers. The dataset covers reconnaissance, forensics, cryptography, low-level exploitation, binary analysis, and reverse engineering tasks.
+
+**Focus:** Python, RAG, CTF automation, graph-based memory, tool routing, cybersecurity task solving, reasoning traces.
 
 ---
 
